@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .container{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border: 2px solid green;    
+    margin: 124px 70px;
+    padding: 120px;
+    width: 33%;
+    border-radius: 28px;
+    }
+    /*css reset*/
+   body{
+    font-family: 'Baloo Bhaina 2', cursive;
+       color: white;
+       margin: 0px;
+       padding: 0px;
+       background: url('image/bgimg3.jpg');
+       height: 1200px;
+       
+   }
+   .left{
+    font-family: 'Baloo Bhaina 2', cursive;
+       display: inline-bldock;
+       /* border: 2px solid red; */
+       position: absolute;
+       left: 34px;
+       top: 20px;
+       
+   }
+   .left img{
+    
+       width: 100px;
+       height: 70px;
+       /* color invert function */
+       filter: invert(80%);
+   }
+   .left div{
+    font-family: 'Baloo Bhaina 2', cursive;
+       text-align: center;
+       color: aquamarine;
+       width: 100px;
+       margin-top: -15px;
+       height: 20px;
+   }
+   .mid{
+       display: block;
+       width: 47%;
+       height: 80px;
+       margin: 20px auto;
+       /* border: 2px solid green; */
+   }
+   .right{
+    
+       position: absolute;
+       right: 34px;
+       top: 20px;
+       display: inline-block;
+       border: 2px darkturquoise;
+       
+   }
+   .right input {
+       height: 15px;
+       border-radius: 7px;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   .right input:hover{
+       background-color: gainsboro;
+   }
+
+   .nav{
+  /* background-color: greenyellow;  */
+  font-family: 'Baloo Bhaina 2', cursive;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+   }
+   .nav li{
+    display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+   }
+   .nav li a{
+       color: white;
+       text-decoration: none;
+       padding: 20px 20px;
+   }
+   .nav li a:hover,.nav li a.active{
+       text-decoration: underline;
+       color: red;
+   }
+
+  .form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+      text-align: center;
+      margin: 3px auto;
+      display: block;
+      padding: 1px;
+      font-size: 18px;
+      width: 508px;
+      border-radius: 8px;
+      border: 2px solid black;
+  }
+  .container h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+      text-align: center;
+      color: goldenrod;
+  }
+  .submit button{
+    font-family: 'Baloo Bhaina 2', cursive;
+      border-radius: 5px;
+      display: block;
+      margin: auto;
+      width: 510px;
+      text-align: center;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+  }
+</style>
+<body>
+    <!-- <h1>hello</h1> -->
+    <header class="header">
+        <!-- left for log -->
+        <div class="left">
+        <img src="image/logo1.jpg" alt="">
+        <div>GKnowledge</div>
+        </div>
+        <!-- for navigation -->
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- for button -->
+        <div class="right">
+            <!-- <button class=" btn" id="btnsearch"></button> -->
+            <input type="text" id="search" value="search">
+            <button class=" btn" id="go" value="go">Go</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join With My Website To Learne New Tech</h1>
+        <form class="form-group" action="noaction-php">
+            <div class="form-group" >
+                <input type="text" name="" placeholder="Alex">
+            </div>
+            <div class="form-group" >
+                <input type="text" contact="" placeholder="*******576">
+            </div>
+            <div class="form-group">
+                <input type="text" email="" placeholder="example123@gmail.com">
+            </div>
+            <div class="submit">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>

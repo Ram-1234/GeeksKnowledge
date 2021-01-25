@@ -1,0 +1,118 @@
+.container{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border: 2px solid green;    
+    margin: 124px 70px;
+    padding: 120px;
+    width: 33%;
+    border-radius: 28px;
+    }
+    /*css reset*/
+   body{
+    font-family: 'Baloo Bhaina 2', cursive;
+       color: white;
+       margin: 0px;
+       padding: 0px;
+       background: url('image\bgimg3.jpg');
+       height: 1200px;
+       
+   }
+   .left{
+    font-family: 'Baloo Bhaina 2', cursive;
+       display: inline-bldock;
+       /* border: 2px solid red; */
+       position: absolute;
+       left: 34px;
+       top: 20px;
+       
+   }
+   .left img{
+    
+       width: 100px;
+       height: 70px;
+       /* color invert function */
+       filter: invert(80%);
+   }
+   .left div{
+    font-family: 'Baloo Bhaina 2', cursive;
+       text-align: center;
+       color: aquamarine;
+       width: 100px;
+       margin-top: -15px;
+       height: 20px;
+   }
+   .mid{
+       display: block;
+       width: 47%;
+       height: 80px;
+       margin: 20px auto;
+       /* border: 2px solid green; */
+   }
+   .right{
+    
+       position: absolute;
+       right: 34px;
+       top: 20px;
+       display: inline-block;
+       border: 2px darkturquoise;
+       
+   }
+   .right input {
+       height: 15px;
+       border-radius: 7px;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   .right input:hover{
+       background-color: gainsboro;
+   }
+
+   .nav{
+  /* background-color: greenyellow;  */
+  font-family: 'Baloo Bhaina 2', cursive;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+   }
+   .nav li{
+    display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+   }
+   .nav li a{
+       color: white;
+       text-decoration: none;
+       padding: 20px 20px;
+   }
+   .nav li a:hover,.nav li a.active{
+       text-decoration: underline;
+       color: red;
+   }
+
+  .form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+      text-align: center;
+      margin: 3px auto;
+      display: block;
+      padding: 1px;
+      font-size: 18px;
+      width: 508px;
+      border-radius: 8px;
+      border: 2px solid black;
+  }
+  .container h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+      text-align: center;
+      color: goldenrod;
+  }
+  .submit button{
+    font-family: 'Baloo Bhaina 2', cursive;
+      border-radius: 5px;
+      display: block;
+      margin: auto;
+      width: 510px;
+      text-align: center;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+  }
