@@ -1,0 +1,33 @@
+GIT COMMANDS
+
+->git config --global user.name "username"
+->git config --global user.email "useremail@.com"
+->git init
+->git add .
+->git commmit -m "Initial commit"
+->git status  // not mendatory
+status output is ..working tree clean
+//select SSH path from git repositry path and type next
+->git remote add origin <SSH path paste>
+// if all the ssh permison allow then next command
+->git push origin master  //all files related project pushed on github successfully
+
+//////////////////////////////////////////////////////////////if first time project pushing then we need ssh key required
+
+>git config --global user.name "username"
+->git config --global user.email "useremail@.com"
+->git init
+->git add .
+->git commmit -m "Initial commit"
+->git status  // not mendatory
+status output is ..working tree clean
+//select SSH path from git repositry path and type next
+//git wthe ssh permison account level or project level as you want
+//for generet globl ssh key we need coommand
+->ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ tail <path to id_rsa.pub> #Add this key to github 
+->git remote add origin <SSH path paste>
+// if all the ssh permison allow then next command
+->git push origin master  //all files related project pushed on github successfully
+
+
